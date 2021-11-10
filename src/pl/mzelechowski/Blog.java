@@ -80,4 +80,20 @@ public class Blog implements BlogAction {
             }
         }
     }
+
+    public void addUsers(User user) {
+        users.add(user);
+    }
+
+    public void addPosts(Post post) {
+        posts.add(post);
+    }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public List<Post> getPosts() {
+        return posts;
+    }
 }

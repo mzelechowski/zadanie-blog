@@ -7,4 +7,9 @@ public class Comment extends Entry{
     public Comment(Date posterDate, User author, String content) {
         super(posterDate, author, content);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

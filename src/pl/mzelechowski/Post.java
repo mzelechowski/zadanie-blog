@@ -16,4 +16,11 @@ public class Post extends Entry {
     public List<Comment> getComments() {
         return comments;
     }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "comments=" + comments +
+                "} " + super.toString();
+    }
 }

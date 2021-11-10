@@ -29,4 +29,14 @@ public class User {
     public String getNickName() {
         return nickName;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", nickName='" + nickName + '\'' +
+                '}';
+    }
 }

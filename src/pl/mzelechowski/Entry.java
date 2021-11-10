@@ -31,4 +31,14 @@ public abstract class Entry {
     public String getContent() {
         return content;
     }
+
+    @Override
+    public String toString() {
+        return "Entry{" +
+                "id=" + id +
+                ", posterDate=" + posterDate +
+                ", author=" + author +
+                ", content='" + content + '\'' +
+                '}';
+    }
 }
